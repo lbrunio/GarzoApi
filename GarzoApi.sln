@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarzoApi", "GarzoApi\GarzoApi.csproj", "{ECF85A17-FDBF-47D8-BB1F-4670CEB73642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF85A17-FDBF-47D8-BB1F-4670CEB73642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF85A17-FDBF-47D8-BB1F-4670CEB73642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF85A17-FDBF-47D8-BB1F-4670CEB73642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF85A17-FDBF-47D8-BB1F-4670CEB73642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0299682F-2133-4BF3-A44B-68CFE88B47E5}
+	EndGlobalSection
+EndGlobal
