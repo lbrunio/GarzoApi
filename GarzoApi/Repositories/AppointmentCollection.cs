@@ -42,10 +42,13 @@ namespace GarzoApi.Repositories
 
         public async Task UpdateAppointment(AppointmentModel appointment) {
             var filter = Builders<AppointmentModel>.Filter.Eq(a => a.AppointmentId, appointment.AppointmentId);
+
+            
             var update = Builders<AppointmentModel>.Update
                 .Set(a => a.Name, appointment.Name) 
                 .Set(a => a.Last_name, appointment.Last_name)
                 .Set(a => a.Phone_number, appointment.Phone_number)
+                .Set(a => a.Email, appointment.Email)
                 .Set(a => a.Service_type, appointment.Service_type)
                 .Set(a => a.State, appointment.State)
                 .Set(a => a.Appointment_date, appointment.Appointment_date);
